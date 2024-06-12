@@ -3,7 +3,8 @@ Sample.h
 SampleClass クラスを宣言
 */
 //クラスを宣言
-class SampleClass {
+class SampleClass 
+{
 	//メンバ変数
 	int a;
 	int b;
