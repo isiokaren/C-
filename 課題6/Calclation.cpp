@@ -15,6 +15,6 @@ void Calclation::SetB()
 //‰~‚Ì–ÊÏ‚ğo—Í‚·‚éŠÖ”
 void Calclation::Disp()
 {
-	std::cout << a + b = c1 << "\n";
-	std::cout << a + b = c2 << "\n";
+	std::cout << "a + b = c1" << "\n";
+	std::cout << "a + b = c2" << "\n";
 }
