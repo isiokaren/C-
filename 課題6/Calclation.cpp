@@ -3,16 +3,16 @@
 //‰~‚Ì”¼Œa‚ğæ“¾‚·‚éŠÖ”
 void Calclation::SetA(float a)
 {
-	a = 42.195f;
+	this->a = a;
 }
 //‰~‚Ì–ÊÏ‚ğŒvZ‚·‚éŠÖ”
 void Calclation::SetB(float b)
 {
-	b = 3.14f;
+	this->b = b;
 }
 //‰~‚Ì–ÊÏ‚ğo—Í‚·‚éŠÖ”
 void Calclation::Disp()
 {
-	std::cout << "42.195 + 3.14 =" << (a + b) << "\n";
-	std::cout << "42.195 - 3.14 =" << (a - b) << "\n";
+	std::cout << a << "+" << b << "=" << (a + b) << "\n";
+	std::cout << a << "-" << b << "=" << (a - b) << "\n";
 }

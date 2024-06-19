@@ -4,7 +4,7 @@ class Calclation
 	float b;
 
 public:
-	void SetA(a);
-	void SetB(b);
+	void SetA(float a);
+	void SetB(float b);
 	void Disp();
 };
