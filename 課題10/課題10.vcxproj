@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3f60414a-c66b-4d81-a78e-7c7e35317b15}</ProjectGuid>
-    <RootNamespace>課題6</RootNamespace>
+    <ProjectGuid>{299ce9cd-5d8d-4ddb-bbb7-3ef0e0c3d68b}</ProjectGuid>
+    <RootNamespace>課題10</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Calclation.h" />
+    <ClInclude Include="Circle.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Calclation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
