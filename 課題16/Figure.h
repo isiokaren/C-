@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 //基本となる図形クラス
 class Figure

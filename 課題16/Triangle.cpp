@@ -1,5 +1,5 @@
 #include "Triangle.h"
 void Triangle::Calc()
 {
-	menseki = teihen * takasa;
+	menseki = (teihen * takasa) / 2;
 }

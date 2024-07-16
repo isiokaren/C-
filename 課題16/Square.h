@@ -1,4 +1,5 @@
-#include "figure.h"
+#pragma once
+#include "Figure.h"
 class Square : public Figure
 {
 public:
